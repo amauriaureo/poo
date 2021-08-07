@@ -5,9 +5,15 @@
 //     rl.close();
 // })
 
-const options = require('./data');
-const MachineOptions = require('./controller/class');
+const options = require('./data'); // Pedra, papel, tesoura;
+const User = require('./controller/class/user')
+// const MachineOptions = require('./controller/class/machine'); // classe que sorteia
+// let sorteio = new MachineOptions({opt: options}).sort()
 
-let sorteio = new MachineOptions({opt: options}).sort()
+let usuario = new User({
+    opt: options,
+    name: 'Maria',
+    selected: 'Papel'
+}).game()
 
-console.log(sorteio)
+console.log(usuario)
