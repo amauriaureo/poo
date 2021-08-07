@@ -13,4 +13,25 @@ const mari = require('./class/gettersAndSetters')
 
 // console.log(SegundaPessoa._name)
 
-console.log(mari.speak())
+// console.log(mari.speak())
+// const Person = require('./class/metodoPublico')
+
+// let jose = new Person("Zé", 38)._name
+
+// ou 
+// let jose = new Person({
+//     name: "Zé",
+//     age: 38
+// })._name
+// console.log(jose)
+const Employee = require('./class/metodoPrivado')
+
+let maria = new Employee({
+    name:'Maria',
+    age: 39,
+    codelanguage: 'JS'
+})
+maria.stack()
+maria.speak()
+
+// console.log(maria)
