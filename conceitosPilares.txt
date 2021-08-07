@@ -1,0 +1,35 @@
+Programação orientada à objetos.
+POO – JS.
+
+Principio: recriar elementos do seu cotidiano em uma estrutura de código;
+Objetivo: trabalhar estruturas limpas e reaproveitáveis;
+
+Existem outros paradigmas de programação.
+POO vem para bater de frente com o paradigma procedural.
+
+Bastante utilizado em alguns processo de concepção de softwares e até mesmo produtos digitais.
+
+ML, analise sist.
+Muito utilizado nesses processos.
+
+4 PILARES
+Herança:
+ex: criei uma classe celular, a partir dessa classe tenho atributos e métodos.
+Um atributo para celular é “cor” com o valor “preto” e um método “fazLigacao”.
+Crio uma nova classe estendendo, crio uma instância nova e faço alteração do atributo
+cor e adicionando uma propriedade, ou seja, além de fazer ligação ele tira foto.
+
+Polimorfismo:
+Característica de um objeto se passar por outro. Lembrando que o que compõe um objeto é ter
+atributo(propriedades) e método(funções). 
+Ex: classe celular foi recriada e a partir dela, todos os métodos foram reescritos, 
+
+Encapsulamento:
+Ato de você esconder alguns atributos dentro da classe. 
+Ex: celular. O atributo cor se tornou um atributo privado e todos os filhos a partir dela vão ser da mesma cor. 
+Conceito poderoso e essencial, traz mais segurança pra nossa aplicação e torna mais robusta.
+ 
+Abstração:
+Ato de criar objetos abstratos e esses objetos abstratos podem criar vários outros.
+Ex classe Celular. Ele trata a estrutura do celular, ou seja, o corpo do telefone então,
+todas as classes criadas a partir dela terão o mesmo corpo.
