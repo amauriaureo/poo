@@ -20,4 +20,6 @@ const Produto = {
     }
 }
 
+// Produto.price = 10000
+
 module.exports = Produto
