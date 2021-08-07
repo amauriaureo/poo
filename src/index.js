@@ -2,6 +2,7 @@ const ObjJavascript = require('./literals/objeto') // arquivo principal é js en
 const ObjJSON = require('./literals/objeto.json')
 // const Pessoa = require('./class/anatomia')
 const SegundaPessoa = require('./class/anatomia')
+const mari = require('./class/gettersAndSetters')
 
 // console.log(ObjJavascript.name)
 // console.log(ObjJavascript.getDiscount())
@@ -10,4 +11,6 @@ const SegundaPessoa = require('./class/anatomia')
 // console.log(ObjJSON.produto[1].name)
 // console.log(Pessoa.hello('Amauri', 'dev', 27))
 
-console.log(SegundaPessoa._name)
+// console.log(SegundaPessoa._name)
+
+console.log(mari.speak())
